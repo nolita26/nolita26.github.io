@@ -852,12 +852,15 @@ footer{
 }
 
 @media(max-width:991px){
-    header,section,footer{
+    header, section, footer{
         padding-left: 3%;
         padding-right: 3%;
     }
-    .home,.portfolio-box{
+    .home, .portfolio-box{
         flex-direction: column-reverse;
+    }
+    .header-info {
+        width: 100%;
     }
     .about {
         flex-direction: column;
