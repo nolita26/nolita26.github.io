@@ -848,6 +848,13 @@ footer{
 @media(max-width:1200px){
     html{
         font-size: 95%;
+        max-width: 1140px;
+    }
+}
+
+@media(max-width: 1024px) {
+    body{
+        max-width: 1024px;
     }
 }
 
@@ -882,6 +889,9 @@ footer{
 }
 
 @media(max-width:768px){
+    .header-info .h1{
+        top: 2000px;
+    }
     .menu-icon .bar,.menu-icon::after,.menu-icon::before{
         display: block;
     }
@@ -931,7 +941,10 @@ footer{
     }
 }
 
-@media(max-width:530px){
+@media(max-width:540px){
+    body {
+        max-width: 540px;
+    }
     html{
         font-size: 80%;
     }
